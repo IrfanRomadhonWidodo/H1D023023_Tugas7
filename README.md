@@ -1,16 +1,30 @@
-# h1d023023_tugas7
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🖼️ Asset Preview  
+Semua gambar dari folder `assets/` ditampilkan lewat tabel biar rapih.
 
-This project is a starting point for a Flutter application.
+| No | Nama File | Preview |
+|----|----------|---------|
+| 1 | **demo_aplikasi.gif** | ![](assets/demo_aplikasi.gif) |
+| 2 | **image_1.jpeg** | ![](assets/image_1.jpeg) |
+| 3 | **image_2.jpg** | ![](assets/image_2.jpg) |
+| 4 | **image_3.jpg** | ![](assets/image_3.jpg) |
+| 5 | **image_4.jpg** | ![](assets/image_4.jpg) |
+| 6 | **image_5.jpg** | ![](assets/image_5.jpg) |
+| 7 | **image_6.jpg** | ![](assets/image_6.jpg) |
 
-A few resources to get you started if this is your first Flutter project:
+> Catatan: Pastikan `README.md` berada di root repo agar gambar muncul dengan benar.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Dependensi yang Digunakan
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.17
+  flutter_svg: ^2.0.5
+  google_fonts: ^4.0.3
+  cupertino_icons: ^1.0.8
