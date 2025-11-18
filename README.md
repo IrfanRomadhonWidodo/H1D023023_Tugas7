@@ -27,6 +27,14 @@ Aplikasi ini menampilkan **form input data** yang diisi oleh pengguna, kemudian 
    git clone https://github.com/IrfanRomadhonWidodo/H1D023023_Tugas7.git
    cd H1D023023_Tugas7
 ---
+2. **Instal dependencies**
+    ```bash
+   flutter pub get
+---
+3. **Jalankan aplikasi**
+    ```bash
+    flutter run
+---
 
 ## 🖼️ Asset Preview  
 Semua gambar dari folder `assets/` ditampilkan lewat tabel biar rapih.
