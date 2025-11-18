@@ -7,18 +7,86 @@ NIM   : H1D023023
 Shift : Shift D (Lama), Shift F (Baru)  
 
 ## 🧩 Deskripsi  
-Proyek ini dibuat menggunakan **Flutter** untuk memenuhi tugas ke-7.  
-Aplikasi ini menampilkan **form input data** yang diisi oleh pengguna, kemudian data tersebut dikirim (passing data) menuju halaman **tampilan hasil** untuk ditampilkan kembali di layar.
-
+Proyek ini dibuat menggunakan Flutter untuk memenuhi tugas ke-7.
+Aplikasi ini menampilkan form input data yang diisi oleh pengguna, kemudian data tersebut dikirim (passing data) menuju halaman tampilan hasil untuk ditampilkan kembali di layar.
 ---
+
+## 🔄 Penjelasan Kode
+
+### main.dart
+File ini merupakan titik awal aplikasi yang menginisialisasi Flutter dan menentukan tema aplikasi.
+
+- Mengecek status login pengguna melalui UserService
+- Mengatur tema aplikasi dengan warna orange sebagai warna utama
+- Mengkonfigurasi routes untuk navigasi antar halaman
+- Menggunakan Google Fonts (Poppins) untuk tipografi aplikasi
+  
+### services/user_service.dart
+Service ini mengelola semua operasi terkait data pengguna:
+
+- isLoggedIn() - Mengecek status login pengguna
+- saveLoginData() - Menyimpan data login ke local storage
+- getUserData() - Mengambil data pengguna dari local storage
+- logout() - Menghapus status login
+- updateUserData() - Memperbarui data pengguna
+- getTheme() & setTheme() - Mengelola tema aplikasi
+
+### pages/login_page.dart
+Halaman login dengan fitur:
+
+- Form validation untuk username dan password
+- Toggle visibility password
+- Loading indicator saat proses login
+- SnackBar untuk pesan error
+- Navigasi ke halaman home setelah login berhasil
+  
+### pages/home_page.dart
+Halaman utama yang menampilkan:
+
+- Welcome card dengan informasi pengguna
+- Grid menu untuk navigasi ke fitur lainnya
+- Tips harian
+- Refresh indicator untuk memuat ulang data
+  
+### widgets/side_menu.dart
+Komponen drawer yang berisi:
+
+- Header dengan informasi pengguna
+- Menu navigasi ke berbagai halaman
+- Tombol logout
+- Desain dengan gradient orange
+  
+### pages/profile_page.dart
+Halaman profil dengan fitur:
+
+- Tampilan informasi pengguna
+- Mode edit untuk mengubah data
+- Form validation untuk data profil
+- Simpan perubahan ke local storage
+  
+### pages/settings_page.dart
+Halaman pengaturan dengan opsi:
+
+- Pemilihan tema aplikasi
+- Toggle notifikasi
+- Pengaturan keamanan akun
+- Informasi aplikasi
+
+### pages/about_page.dart
+Halaman tentang aplikasi yang menampilkan:
+
+- Informasi aplikasi
+- Fitur-fitur utama
+- Informasi developer
 
 ## 🛠️ Teknologi yang Digunakan  
 - **Flutter & Dart**  
 - (Tambahkan dependency yang digunakan di `pubspec.yaml`)  
-- **Versi Flutter:** _(isi versi)_  
+- **Versi Flutter:** _3.35.6_ 
 - **Platform Target:** Android / iOS  
 
 ---
+## 
 
 ## 🚀 Cara Menjalankan Aplikasi  
 
