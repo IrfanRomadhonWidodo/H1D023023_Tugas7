@@ -113,9 +113,6 @@ Semua gambar dari folder `assets/` ditampilkan lewat tabel biar rapih.
 | Image 4                 | Image 5                 | Image 6                 |
 | ![](assets/image_4.jpg) | ![](assets/image_5.jpg) | ![](assets/image_6.jpg) |
 
-
-> Catatan: Pastikan `README.md` berada di root repo agar gambar muncul dengan benar.
-
 ---
 ## 🎬 Demo Aplikasi
 
