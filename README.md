@@ -8,7 +8,6 @@ Semua gambar dari folder `assets/` ditampilkan lewat tabel biar rapih.
 | ------------------------ | ----------------------- | ----------------------- |
 | ![](assets/image_1.jpeg) | ![](assets/image_2.jpg) | ![](assets/image_3.jpg) |
 | Image 4                 | Image 5                 | Image 6                 |
-| ----------------------- | ----------------------- | ----------------------- |
 | ![](assets/image_4.jpg) | ![](assets/image_5.jpg) | ![](assets/image_6.jpg) |
 
 
