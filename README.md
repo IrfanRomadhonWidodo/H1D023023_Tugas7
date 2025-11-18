@@ -4,15 +4,13 @@
 ## 🖼️ Asset Preview  
 Semua gambar dari folder `assets/` ditampilkan lewat tabel biar rapih.
 
-| No | Nama File | Preview |
-|----|----------|---------|
-| 1 | **demo_aplikasi.gif** | ![](assets/demo_aplikasi.gif) |
-| 2 | **image_1.jpeg** | ![](assets/image_1.jpeg) |
-| 3 | **image_2.jpg** | ![](assets/image_2.jpg) |
-| 4 | **image_3.jpg** | ![](assets/image_3.jpg) |
-| 5 | **image_4.jpg** | ![](assets/image_4.jpg) |
-| 6 | **image_5.jpg** | ![](assets/image_5.jpg) |
-| 7 | **image_6.jpg** | ![](assets/image_6.jpg) |
+| Image 1                  | Image 2                 | Image 3                 |
+| ------------------------ | ----------------------- | ----------------------- |
+| ![](assets/image_1.jpeg) | ![](assets/image_2.jpg) | ![](assets/image_3.jpg) |
+| Image 4                 | Image 5                 | Image 6                 |
+| ----------------------- | ----------------------- | ----------------------- |
+| ![](assets/image_4.jpg) | ![](assets/image_5.jpg) | ![](assets/image_6.jpg) |
+
 
 > Catatan: Pastikan `README.md` berada di root repo agar gambar muncul dengan benar.
 
