@@ -105,7 +105,6 @@ Halaman tentang aplikasi yang menampilkan:
 ---
 
 ## 🖼️ Asset Preview  
-Semua gambar dari folder `assets/` ditampilkan lewat tabel biar rapih.
 
 | Image 1                  | Image 2                 | Image 3                 |
 | ------------------------ | ----------------------- | ----------------------- |
