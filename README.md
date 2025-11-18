@@ -14,6 +14,9 @@ Semua gambar dari folder `assets/` ditampilkan lewat tabel biar rapih.
 > Catatan: Pastikan `README.md` berada di root repo agar gambar muncul dengan benar.
 
 ---
+## 🎬 Demo Aplikasi
+
+![Demo Aplikasi](assets/demo_aplikasi.gif)
 
 ## ⚙️ Dependensi yang Digunakan
 
